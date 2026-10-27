@@ -17,17 +17,18 @@ namespace MidtermExam.Prob04
         /// </remarks>
         public int AS04_SequentialSearch(int[] values, int target)
         {
-           if (values == null || values.Length == 0)
+            if (values == null || values.Length == 0)
+            }
 
-    {
+        {
 
         return -1;
 
-    }
+        }
 
-    for (int i = 0; i < values.Length; i++)
+        for (int i = 0; i < values.Length; i++)
 
-    {
+        {
 
         if (values[i] == target)
 
@@ -37,9 +38,9 @@ namespace MidtermExam.Prob04
 
         }
 
-    }
+        }
 
-    return -1;
+        return -1;
         }
 
         /// <summary>ข้อ 04.2: ค้นหาตัวเลขด้วย Binary Search โดยลดช่วงค้นหาประมาณครึ่งหนึ่งต่อขั้น</summary>
