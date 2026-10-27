@@ -17,7 +17,7 @@ namespace MidtermExam.Prob04
         /// </remarks>
         public int AS04_SequentialSearch(int[] values, int target)
         {
-            if (values == null || values.Length == 0)
+           if (values == null || values.Length == 0)
             }
 
         {

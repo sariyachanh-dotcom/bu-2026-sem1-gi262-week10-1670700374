@@ -18,17 +18,17 @@ namespace MidtermExam.Prob03
         {
             if (root == null)
 
-    {
+        {
 
-        return 0;
+            return 0;
 
-    }
+        }
 
-    return 1
+            return 1
 
-        + AS03_CountTotalNode(root.left)
+            + AS03_CountTotalNode(root.left)
 
-        + AS03_CountTotalNode(root.right);
+            + AS03_CountTotalNode(root.right);
         }
     }
 }
