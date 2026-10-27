@@ -67,5 +67,5 @@ namespace MidtermExam.Prob02
         }
 
     }
-
+    //อาจารย์คะหนูทำผิดไฟล์ที่จริงต้องไฟล์ StudentWebBrowser.cs ค่ะหนูเผลอทำในนี้ ขอโทษนะคะ5555555
 }
