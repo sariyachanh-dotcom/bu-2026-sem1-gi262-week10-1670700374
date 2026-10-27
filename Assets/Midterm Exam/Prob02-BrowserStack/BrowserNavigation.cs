@@ -4,7 +4,7 @@ namespace MidtermExam.Prob02
 
 {
 
-    public class StudentWebBrowser
+    public class BrowserNavigation
 
     {
 
