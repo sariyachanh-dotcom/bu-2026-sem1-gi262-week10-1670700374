@@ -16,7 +16,8 @@ namespace MidtermExam.Prob03
 
         /// <summary>
         /// สร้างโหนดพร้อมลูกที่ระบุ เช่น new Node(1, new Node(2), new Node(3)) มีทั้งหมด 3 โหนด
-        
+        new Node(1, new Node(2), null)
+
         /// ถ้าไม่ระบุลูก จะสร้างโหนดเดี่ยวที่ left และ right เป็น null
         public Node(int value)
         {
