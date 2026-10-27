@@ -22,7 +22,7 @@ namespace MidtermExam.Prob02
         public string[] AS02_WebBrowserNavigation(string actions)
         {
             var browser = new StudentWebBrowser();
-            // List นี้เก็บผลลัพธ์ของ parser เท่านั้น ประวัติการนำทางต้องเก็บด้วย Stack ในอีกคลาส
+            
             var output = new List<string>();
             if (string.IsNullOrWhiteSpace(actions)) return output.ToArray();
 
@@ -35,7 +35,7 @@ namespace MidtermExam.Prob02
                 else if (command == "back") browser.Back();
                 else if (command == "forward") browser.Forward();
                 else if (command == "current") output.Add(browser.Current());
-            }
+            }   
             return output.ToArray();
         }
     }
